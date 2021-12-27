@@ -1,1 +1,2 @@
-web: node src/dist/index.js
+web: npm run build
+web: node dist/index.js
