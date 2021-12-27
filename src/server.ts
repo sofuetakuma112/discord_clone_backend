@@ -12,7 +12,7 @@ const server: FastifyInstance<
 });
 
 server.register(require('fastify-cors'), {
-  origin: 'https://discord-clone-sofue.netlify.app/',
+  origin: false,
 });
 
 // DBサーバーの立ち上げ
