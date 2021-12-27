@@ -12,7 +12,7 @@ const server: FastifyInstance<
 });
 
 server.register(require('fastify-cors'), {
-  origin: false,
+  origin: '*',
 });
 
 // DBサーバーの立ち上げ
