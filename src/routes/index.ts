@@ -7,7 +7,7 @@ const routes = (fastify) => {
   return [
     {
       method: 'GET' as 'GET',
-      url: '/',
+      url: '/', // https://discord-clone-backend-server.herokuapp.comに対応
       handler: (req, reply) => reply.send({ hello: 'world' }),
     },
     {
